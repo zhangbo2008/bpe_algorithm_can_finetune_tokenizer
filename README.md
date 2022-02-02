@@ -12,7 +12,9 @@ the official python library tokenizer is written is rust. I am learning hoping t
 
 
 
-
+ps:
+the_factor_of_new_added_token_divided_unk_number is the only param you should set.
+hoping can find a auto algorithm to set it.
 
 
 

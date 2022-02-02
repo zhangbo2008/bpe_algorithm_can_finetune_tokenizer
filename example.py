@@ -29,6 +29,7 @@ new_tokenizer=bpet.finetune_tokenizer(finetune_corpus,the_factor_of_new_added_to
 
 token_after_finetune=new_tokenizer.encode(finetune_corpus)
 print(token_after_finetune)#[239, 240, 244, 223, 12, 239, 123, 241, 246, 33, 12, 239, 123, 220, 223, 254, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 224]
+print("we see we have no unk for the token_after_finetune")
 
 
 
